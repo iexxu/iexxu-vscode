@@ -1,0 +1,10 @@
+{
+    "iconDefinitions": {
+        "ix_file": {
+            "iconPath": "./iexxu-logo.png"
+        }
+    },
+    "fileExtensions": {
+        "ix": "ix_file"
+    }
+}

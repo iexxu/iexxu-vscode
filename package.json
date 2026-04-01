@@ -1,0 +1,42 @@
+{
+    "name": "ix-lang",
+    "displayName": "Iexxu Language Support",
+    "description": "Standard support for .ix files",
+    "version": "1.1.0",
+    "publisher": "Iexxu Project",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ix",
+                "aliases": [
+                    "Iexxu",
+                    "ix"
+                ],
+                "extensions": [
+                    ".ix"
+                ],
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "light": "./icons/iexxu-logo.png",
+                    "dark": "./icons/iexxu-logo.png"
+                }
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ix",
+                "scopeName": "source.ix",
+                "path": "./syntaxes/ix.tmLanguage.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^2.15.0"
+    }
+}

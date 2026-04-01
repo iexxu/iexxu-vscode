@@ -1,0 +1,18 @@
+{
+    "scopeName": "source.ix",
+    "patterns": [
+        {
+            "name": "keyword.control.ix",
+            "match": "\\b(import|from|public|class|fn|self|return)\\b"
+        },
+        {
+            "name": "string.quoted.double.ix",
+            "begin": "\"",
+            "end": "\""
+        },
+        {
+            "name": "comment.line.number-sign.ix",
+            "match": "#.*$"
+        }
+    ]
+}

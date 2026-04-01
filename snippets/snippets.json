@@ -1,0 +1,21 @@
+{
+    "Iexxu PyQt5 App": {
+        "prefix": "iexxu-app",
+        "body": [
+            "import sys",
+            "import PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout",
+            "",
+            "{",
+            "    public class ${1:AppName} {",
+            "        fn __init__(self) {",
+            "            self.app = QApplication(sys.argv)",
+            "            self.window = QWidget()",
+            "            self.window.setWindowTitle(\"${2:Title}\")",
+            "            $0",
+            "        }",
+            "    }",
+            "}"
+        ],
+        "description": "Create a new Iexxu PyQt5 Application"
+    }
+}
